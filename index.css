@@ -24,9 +24,9 @@
   transform: scale(1.1);
   transition: 0.6s ease-in-out;
 }
-/* #main{
-    background: linear-gradient(to right, rgb(189, 102, 189),rgb(230, 43, 105));
-} */
+body{
+   font-family: "Cinzel", serif;
+}
  form{
     background-color: transparent;
  }
