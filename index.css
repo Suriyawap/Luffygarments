@@ -1,0 +1,77 @@
+/* #main,.container-fluid{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 60px;
+    flex-flow:wrap
+} */
+.card-img-top{
+    height: 329px;
+    width: 285px;
+}
+ 
+/* .card{
+    border: 2px solid rgb(194, 9, 9);
+} */
+/* .img-fluid{
+  height: 529px;
+    width: 385px;
+    background: linear-gradient(to bottom white,yellow);
+    z-index: 1;
+} */
+
+.card:hover{
+  transform: scale(1.1);
+  transition: 0.6s ease-in-out;
+}
+/* #main{
+    background: linear-gradient(to right, rgb(189, 102, 189),rgb(230, 43, 105));
+} */
+ form{
+    background-color: transparent;
+ }
+ .overlay{
+    position: relative;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(241, 233, 233),rgb(255, 255, 4));
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .col-3:hover .overlay{
+    opacity: 0.5 ;
+ }
+ .col-6:hover .overlay{
+    opacity: 0.5 ;
+ }
+ 
+ .col-8{
+    background: linear-gradient(to bottom,rgb(241, 233, 233),rgb(240, 240, 84));
+ }
+ /* nav{
+    background: linear-gradient(to right,rgb(241, 233, 233),rgb(248, 248, 105));
+ } */
+ /* #cont{
+    height: 50vh;
+   
+ }
+ #footer{
+    height: 10vh;
+ } */
+ @media (min-width:528px) {
+    .carousel-item img{
+        height: 90vh;
+     }
+     #fnt{
+        font-size: 120px;
+     }
+     #fnt2,#fnt1{
+        font-size: 32px;
+     }
+ }
+ 
